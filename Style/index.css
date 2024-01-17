@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit !important;
+}
+.container-fluid .a_drop_menu{
+    background: #0E6C5A;
+}
+.container-fluid .a_drop_menu a:hover{
+    background: #0A4E38;
+}
+.a_bottom .nav-item:hover{
+    background: #14B2E2;
+}
