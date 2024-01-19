@@ -1,0 +1,40 @@
+.a_user_space{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.a_user_font{
+    font-size: 13px;
+}
+.a_cursor_pointer{
+    cursor: pointer;
+}
+.a_btn_color{
+    background: #486D90;
+}
+.a_text_color{
+    color: #486D90 !important;
+}
+.a_text .a_text_color a:hover{
+    text-decoration: underline !important;
+}
+.a_forms_links{
+    font-size: 13px;
+    margin-top: 35px;
+}
+.a_img_figma{
+    background: url(/image/figma.png);
+    height: 12%;
+    width: 100%;
+    font-size: 14px;
+}
+.a_text{
+    font-size: 12px;
+    background: #F2F6F7;
+    width: 100%;
+    margin: 11px;
+    padding: 0px;
+}
+.a_info_icon i{
+    font-size: 32px;
+    color: #1B75BC;
+}

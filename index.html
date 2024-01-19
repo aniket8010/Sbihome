@@ -114,10 +114,191 @@
         </div>
       </header>
       <main>
-        <section style="color: #124C8C; background: #E8F3F9;" class="d-flex justify-content-between p-2 fs-1 align-items-center">
+        <section
+          style="color: #124c8c; background: #e8f3f9"
+          class="d-flex justify-content-between p-2 fs-1 align-items-center"
+        >
           <h6 class="fw-bold">Login to OnlineSBI</h6>
           <h6 class="fw-bold">Welcome to Personal Internet Banking</h6>
         </section>
+        <section class="a_login_form">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div>
+                <span>
+                  (
+                  <span class="text-danger fw-bold"> CARE: </span>
+                  Username and password are case sensitive.)
+                </span>
+                <form action="">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <div class="p-3 a_user_font">
+                        <label class="fw-bold a_user_space" for="Username">
+                          Username*</label
+                        >
+                        <input
+                          style="
+                            border: 1px solid #ac9c9c;
+                            background-color: #f1f1f1;
+                            outline: none;
+                          "
+                          type="name"
+                          name="Username "
+                          class="d-block w-100 bg-light rounded-0 p-2"
+                        />
+                        <label class="fw-bold a_user_space" for="password">
+                          password*</label
+                        >
+                        <input
+                          style="
+                            border: 1px solid #ac9c9c;
+                            background-color: #f1f1f1;
+                            outline: none;
+                          "
+                          type="password"
+                          name="password "
+                          class="d-block w-100 bg-light rounded-0 p-2"
+                        />
+                        <label class="fw-bold a_user_space" for="image">
+                          Enter the text as shown in the image*</label
+                        >
+                        <input
+                          style="
+                            border: 1px solid #ac9c9c;
+                            background-color: #f1f1f1;
+                            outline: none;
+                          "
+                          type="usernane"
+                          name="image"
+                          class="d-block w-100 bg-light rounded-0 p-2"
+                        />
+                        <label class="fw-bold a_user_space" for="capta">
+                          Select one of the Captcha options *
+                        </label>
+                        <div class="d-flex gap-4">
+                          <div>
+                            <input
+                              type="radio"
+                              name="capta_type"
+                              id="image_type"
+                            />
+                            <label class="text-danger fw-bold" for="image_type"
+                              >Image Captcha</label
+                            >
+                          </div>
+                          <div>
+                            <input
+                              type="radio"
+                              name="capta_type"
+                              id="audio_typs"
+                            />
+                            <label class="text-danger fw-bold" for="audio_typs"
+                              >Audio Captcha</label
+                            >
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-1">
+                          <div>
+                            <img class="mt-2" src="/image/capta.png" alt="" />
+                          </div>
+                          <div style="color: #486d90">
+                            <i
+                              class="fa fa-refresh a_cursor_pointer fs-3"
+                              aria-hidden="true"
+                            ></i>
+                          </div>
+                        </div>
+                        <div class="p-3">
+                          <div>
+                            <button
+                              style="
+                                padding: 8px 20px;
+                                margin-right: 5px;
+                                border: none;
+                              "
+                              class="a_btn_color text-white"
+                            >
+                              Login
+                            </button>
+                            <button
+                              style="padding: 8px 20px; border: none"
+                              class="a_btn_color text-white"
+                            >
+                              Reset
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="a_forms_links p-4">
+                        <div class="">
+                          <a
+                            style="color: #1a71b5 !important"
+                            href=""
+                            class="d-block"
+                            >New User ? Register here/Activate</a
+                          >
+                          <a
+                            style="color: #1a71b5 !important"
+                            href=""
+                            class="d-block mt-4"
+                            >Forgot Username / Login Password</a
+                          >
+                        </div>
+                      </div>
+                      <div class="a_img_figma">
+                        <div class="d-flex align-items-center justify-content-center pt-3 gap-1">
+                          <input class="" type="checkbox" name="checkbox" id="checkbox" />
+                          <label for="checkbox">Enable Virtual Keyboard</label>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="a_text d-flex gap-1">
+                  <p>For better security use the Online Virtual Keyboard to login.</p>
+                  <a class="a_text_color text-decoration-none fw-bold" href="">More...</a>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="a_sbi_img">
+                  <img width="100%" height="100%" src="/image/login_img.png" alt="">
+                </div>
+                <div class="content ">
+                  <p>Dear Customer,</p>
+                  <ul>
+                    <li>OTP based login & Mandatory login password change after 180 days introduced for added security. </li>
+                    <li>Please do not share OTP/password/user information with anyone. Bank never asks for such <br> information.</li>
+                    <li>For better control & security of your account, you can Lock or Unlock your INB access through link "Lock & Unlock User" available at bottom of this Page.</li>
+                    <li>Mandatory Profile password change after 365 days introduced for added security.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="a_tips">
+            <div class="row">
+              <div class="col-12 col-lg-4 a_tips_1">
+                <div class="a_info_icon">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                </div>
+                <div class="a_text_1">
+                  <p>NEVER respond to any popup,email, SMS or phone call, no matter how appealing or official looking, seeking your personal information such as username, password(s), mobile number, ATM Card details, etc. Such communications are sent or created by fraudsters to trick you into parting with your credentials.
+                  </p>
+                </div>
+  
+              </div>
+  
+            </div>
+            
+  
+          </section>   
+          </div>
+          </div>
+
       </main>
     </div>
     <script

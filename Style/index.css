@@ -14,3 +14,17 @@ a{
 .a_bottom .nav-item:hover{
     background: #14B2E2;
 }
+.content{
+    background: #2B2F76;
+    font-size: 13px;
+    line-height: 17px;
+    color: white;
+    padding: 3px;
+}
+.a_text_1{
+    font-size: 12px;
+    line-height: 20px;
+}
+.a_tips_1{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
