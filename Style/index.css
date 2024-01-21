@@ -26,6 +26,11 @@ a {
   line-height: 30px;
   text-align: justify;
 }
+.a_captcha_box {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+}
 .a_tips_box {
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin: 20px;
@@ -34,6 +39,27 @@ a {
 .a_sign_img {
   width: auto;
 }
-.a_fs_12{
-    font-size: 13px;
+.a_fs_12 {
+  font-size: 13px;
+}
+
+/* dynamic keyboard  */
+
+.a_dynamic_keyboard {
+  width: 98%;
+}
+.a_dynamic_keyboard .a_keyboard_box {
+  display: grid;
+  background: #f0f5f7;
+  border: 1px solid #377292;
+  grid-template-columns: repeat(13, 1fr);
+}
+.a_dynamic_keyboard .a_keyboard_box .a_key {
+  border-bottom: 1px solid #377292;
+  border-right: 1px solid #377292;
+  height: 40px;
+  line-height: 2;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
 }
