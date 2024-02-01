@@ -274,17 +274,19 @@
               <!--Right side dynamic keyboard and image-->
               <div class="col-12 col-lg-6">
               <!--Image and content-->
-                <div class="a_dynamic_image_content_box">
-                  <img width="100%" height="100%" src="/image/login_img.png" alt="">
-                </div>
-                <div class="content ">
-                  <p>Dear Customer,</p>
-                  <ul>
-                    <li>OTP based login & Mandatory login password change after 180 days introduced for added security. </li>
-                    <li>Please do not share OTP/password/user information with anyone. Bank never asks for such <br> information.</li>
-                    <li>For better control & security of your account, you can Lock or Unlock your INB access through link "Lock & Unlock User" available at bottom of this Page.</li>
-                    <li>Mandatory Profile password change after 365 days introduced for added security.</li>
-                  </ul>
+                <div class="a_dynamic_image_content_box_new d-none">
+                  <div class="a_dynamic_image_content_box">
+                    <img width="100%" height="100%" src="/image/login_img.png" alt="">
+                  </div>
+                  <div class="content ">
+                    <p>Dear Customer,</p>
+                    <ul>
+                      <li>OTP based login & Mandatory login password change after 180 days introduced for added security. </li>
+                      <li>Please do not share OTP/password/user information with anyone. Bank never asks for such <br> information.</li>
+                      <li>For better control & security of your account, you can Lock or Unlock your INB access through link "Lock & Unlock User" available at bottom of this Page.</li>
+                      <li>Mandatory Profile password change after 365 days introduced for added security.</li>
+                    </ul>
+                  </div>
                 </div>
                  <!--Dynamic keyboard-->
               <div class="a_dynamic_keyboard d-none p-1">
@@ -456,9 +458,10 @@
       const keyInput=document.querySelectorAll(".a_key");
       const formInput=document.querySelectorAll(".a_input");
 
-      const cheakbox=document.getElementById("checkbox");
-      const imageBox=document.querySelector("a_dynamic_image_content_box");
+      const checkbox=document.getElementById("checkbox");
+      const imageBox=document.querySelector(".a_dynamic_image_content_box_new");
       const keyBox=document.querySelector(".a_dynamic_keyboard");
+      console.log(imageBox)
 
       let inputFocusName=null;
       function usernameFun(){
@@ -506,7 +509,7 @@
         }
       });
 
-      cheakbox.addEventListener("change",function(e){
+      checkbox.addEventListener("change",function(e){
         const isVisible = e.target.checked;
         if (!isVisible){
           imageBox.classList.remove("d-none")
